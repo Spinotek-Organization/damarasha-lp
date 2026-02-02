@@ -8,4 +8,21 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: 'Manrope', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+
+    --color-primary: #2D3E6C;
+    --color-secondary: #4C8BF5;
+    --color-accent-red: #E85D4E;
+    --color-accent-green: #A3D145;
+    --color-accent-beige: #F5E6D3;
+
+    --color-background-light: #FAF9F6;
+    --color-background-dark: #121212;
+    --color-surface-light: #FFFFFF;
+    --color-surface-dark: #1E1E1E;
+    --color-border-dark: #333333;
+    --color-border-light: #E5E5E5;
+
+    --animate-spin-slow: spin 10s linear infinite;
 }

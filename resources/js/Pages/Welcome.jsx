@@ -14,8 +14,8 @@ import { Head } from '@inertiajs/react';
 
 export default function Welcome() {
     return (
-        <div className="bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 transition-colors duration-300 font-sans antialiased">
-            <Head title="Coffein - Premium Coffee Experience">
+        <div className="bg-white text-gray-900 font-sans antialiased">
+            <Head title="Damarasha Coffee and Space - Pengalaman Kopi Premium">
                  <link href="https://fonts.googleapis.com" rel="preconnect" />
                 <link crossOrigin="" href="https://fonts.gstatic.com" rel="preconnect" />
                 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet" />
