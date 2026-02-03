@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
     return (
-        <header className="relative pt-20 px-4 pb-24 md:pb-32">
+        <header id="home" className="relative pt-20 px-4 pb-24 md:pb-32">
             <div className="max-w-full mx-auto relative">
                 {/* Main Card Container */}
                 <div className="relative h-[640px] rounded-[3rem] overflow-hidden shadow-2xl group">
@@ -19,24 +19,24 @@ export default function Hero() {
                     {/* Content */}
                     <div className="absolute inset-0 flex flex-col justify-center px-8 md:px-20 lg:px-24">
                         <div className="max-w-5xl">
-                            <h1 className="text-5xl md:text-7xl font-sans font-medium text-white leading-[1.1] mb-8 tracking-tight">
+                            <h1 className="text-5xl md:text-7xl font-sans font-medium text-white leading-[1.1] mb-8 tracking-tight" data-aos="fade-up">
                                 Nikmati Kopi Premium di Damarasha Coffee and Space
                             </h1>
                             
-                            <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-12 max-w-lg font-light opacity-90">
+                            <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-12 max-w-lg font-light opacity-90" data-aos="fade-up" data-aos-delay="200">
                                 Temukan perpaduan sempurna antara kenyamanan dan cita rasa. 
                                 Tempat favorit untuk bekerja, bersantai, dan menikmati setiap momen di Jogja.
                             </p>
 
                             <div className="flex gap-16">
-                                <div className="space-y-1">
+                                <div className="space-y-1" data-aos="fade-up" data-aos-delay="300">
                                     <span className="block text-5xl font-medium text-white">Luas</span>
                                     <span className="text-[#D4A574] text-base font-medium block">Area Indoor & Outdoor</span>
                                     <p className="text-gray-400 text-sm leading-tight max-w-[240px]">
                                         Pilihan ruang yang nyaman untuk berbagai aktivitas Anda.
                                     </p>
                                 </div>
-                                <div className="space-y-1">
+                                <div className="space-y-1" data-aos="fade-up" data-aos-delay="400">
                                     <span className="block text-5xl font-medium text-white">Lengkap</span>
                                     <span className="text-[#D4A574] text-base font-medium block">Fasilitas Terbaik</span>
                                     <p className="text-gray-400 text-sm leading-tight max-w-[240px]">

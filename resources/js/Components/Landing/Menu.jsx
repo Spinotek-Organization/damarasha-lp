@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Menu() {
     return (
-        <section className="py-16 px-6 max-w-7xl mx-auto">
+        <section id="menu" className="py-16 px-6 max-w-7xl mx-auto">
             <div className="flex flex-col items-center mb-16">
                 <h2 className="text-4xl font-display font-medium mb-10 text-center text-primary">Menu Terbaik Kami</h2>
                 <div className="flex flex-wrap justify-center gap-3 md:gap-4">

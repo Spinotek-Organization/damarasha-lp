@@ -33,8 +33,8 @@ export default function Facilities() {
     const activeFacility = facilities.find(f => f.id === activeId);
 
     return (
-        <section className="bg-white py-24 px-4 sm:px-6">
-            <div className="max-w-7xl mx-auto mb-20">
+        <section id="facilities" className="bg-white py-24 px-4 sm:px-6">
+            <div className="max-w-7xl mx-auto mb-20" data-aos="fade-down">
                  <div className="inline-block border border-gray-300 rounded-full px-5 py-2">
                     <span className="text-gray-900 text-sm font-medium">Fasilitas Unggulan Kami</span>
                  </div>
@@ -52,7 +52,7 @@ export default function Facilities() {
 
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20">
                 {/* Left Side: Interactive List */}
-                <div className="lg:w-1/3 flex flex-col gap-8 justify-center">
+                <div className="lg:w-1/3 flex flex-col gap-8 justify-center" data-aos="fade-up">
                      {facilities.map((item) => (
                         <div 
                             key={item.id}
@@ -75,7 +75,7 @@ export default function Facilities() {
                 </div>
 
                 {/* Right Side: Active Card Detail */}
-                <div className="lg:w-2/3">
+                <div className="lg:w-2/3" data-aos="fade-left">
                     <FacilityCard item={activeFacility} />
                 </div>
             </div>
@@ -87,7 +87,7 @@ function FacilityCard({ item }) {
     if (!item) return null;
     
     return (
-        <div key={item.id} className="bg-[#FAF9F6] rounded-[2.5rem] p-3 flex flex-col md:flex-row gap-6 h-full min-h-[500px] shadow-sm overflow-hidden animate-fadeIn">
+        <div key={item.id} className="bg-[#FAF9F6] rounded-[2.5rem] p-3 flex flex-col md:flex-row gap-6 h-auto md:h-full md:min-h-[500px] shadow-sm overflow-hidden animate-fadeIn">
              {/* Left: Image Section */}
             <div className="md:w-1/2 h-[300px] md:h-full rounded-[2rem] overflow-hidden relative">
                 <img 

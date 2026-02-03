@@ -88,7 +88,7 @@ export default function Story() {
                         <span className="material-icons-round">arrow_forward</span>
                     </button>
                 </div>
-                <div className="text-right ml-52">
+                <div className="text-left md:text-left lg:text-right lg:ml-52">
                     <h3 className="text-2xl font-bold font-display text-primary mb-3">
                         {stories[activeIndex].heading}
                     </h3>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../Components/Landing/Navbar';
 import Hero from '../Components/Landing/Hero';
 import Philosophy from '../Components/Landing/Philosophy';
@@ -11,8 +11,19 @@ import Location from '../Components/Landing/Location';
 import CTA from '../Components/Landing/CTA';
 import Footer from '../Components/Landing/Footer';
 import { Head } from '@inertiajs/react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Welcome() {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100,
+            easing: 'ease-out-cubic'
+        });
+    }, []);
+
     return (
         <div className="bg-white text-gray-900 font-sans antialiased">
             <Head title="Damarasha Coffee and Space - Pengalaman Kopi Premium">

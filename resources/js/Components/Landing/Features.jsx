@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Features() {
     return (
-        <section className="bg-white py-24 px-4 sm:px-6">
+        <section id="events" className="bg-white py-24 px-4 sm:px-6">
             <div className="text-center mb-16">
-                 <h2 className="text-4xl font-display font-medium text-primary ">Mengapa Memilih <br /> Damarasha Coffee?</h2>
+                 <h2 className="text-3xl md:text-4xl font-display font-medium text-primary ">Mengapa Memilih <br /> Damarasha Coffee?</h2>
             </div>
             
             <div className="max-w-7xl mx-auto">

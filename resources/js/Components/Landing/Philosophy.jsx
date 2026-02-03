@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Philosophy() {
     return (
-        <section className="py-24 overflow-hidden">
+        <section id="about" className="py-24 overflow-hidden">
             <div className="max-w-5xl mx-auto text-center mb-6">
                 <span className="inline-block bg-accent-beige dark:bg-gray-800 text-primary dark:text-white px-4 py-1.5 rounded-full text-sm font-medium mb-8">
                     Filosofi Kami
@@ -11,7 +11,7 @@ export default function Philosophy() {
                     “Kami percaya bahwa setiap cangkir kopi memiliki cerita, dan setiap ruang memiliki jiwa. Damarasha Coffee and Space hadir untuk menghidupkan inspirasi Anda melalui perpaduan rasa autentik dan suasana yang menenangkan.”
                 </h2>
             </div>
-            <div className="max-w-full mx-auto relative h-[600px] md:h-[700px] grid grid-cols-3 items-center justify-center ">
+            <div className="max-w-full mx-auto relative h-auto md:h-[700px] grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-10 md:gap-0">
                 
                 {/* --- Left Cluster --- */}
                 <div className=" h-[500px] hidden lg:block pointer-events-none">
@@ -46,7 +46,7 @@ export default function Philosophy() {
                 </div>
 
                 {/* --- Center Image --- */}
-                <div className="relative z-30 w-full  h-[480px] md:h-[550px] bg-white p-2 rounded-[2.5rem] shadow-2xl shrink-0">
+                <div className="relative z-30 w-full h-[400px] md:h-[550px] bg-white p-2 rounded-[2.5rem] shadow-2xl shrink-0">
                      <div className="w-full h-full rounded-[2rem] overflow-hidden bg-gray-100">
                          <img alt="Smiling Barista" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEi_IvULdY_5lXAnZQ70p2iP0AIlj81AcHiStBmOC5SA358kA5eP5wI-ikOzHGyWhMD-LvEz3LIHRxfrQxPd5bf7IvZdjujbq2656qM-7fqspjbhUYM17RNkPTI6JXGADhlD1mYKql-IkVvJ_JB8xU6eGNjLON7PxnJe8cKjXrgmBVIz8OMHU3p-pCjqqdmZbXKZc-bTlloOci-pbuHJ88jMTK2FkLuAbeLNxWksF5f6y0XWp20BTVS5rD2RnmXvXoMQOq59NrKOY" />
                      </div>
